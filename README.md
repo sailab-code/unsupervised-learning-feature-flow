@@ -1,14 +1,3 @@
-# Continual Learning of Conjugated Visual Representations through Higher-order Motion Flows (CMOSFET)
-
-Learning with neural networks from a continuous stream of visual information introduces several challenges due to the non-i.i.d. nature of the data. 
-However, it also opens to novel opportunities in the development of representations that are consistent with the information flow. 
-In this work we investigate the case of unsupervised continual learning of pixel-wise features subject to multiple motion-induced constraints, therefore named _motion-conjugated representations_. 
-
-Differently from existing approaches, motion is not a given signal (either ground-truth or estimated by external modules), but it is the outcome of a progressive and autonomous learning process, that takes place at different levels of the feature hierarchy. 
-Multiple motion flows are estimated with neural networks and characterized by different levels of abstractions, ranging from the classic optical flow to other latent signals that originate from higher-level features and result in higher-order motions. 
-
-Continuously learning to develop coherent multi-order flows and representations is prone to trivial solutions that we propose to avoid introducing a self-supervised contrastive loss, spatially-aware and based on flow-induced similarity. 
-
 CODE REPOSITORY CONTENTS
 ------------------------
 The datasets needed for reproducing experiments can be downloaded from the benchmark proposed by Tiezzi et al.,
